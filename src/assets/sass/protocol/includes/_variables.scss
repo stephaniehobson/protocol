@@ -16,3 +16,6 @@ $base-line-height: 1.5;
 
 // TODO this should be in our tokens https://github.com/mozilla/protocol-tokens/issues/22
 $mq-high-res: 'only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi)';
+
+// TODO we need to think about how our animations are organised & where things like this should live.
+$photon-motion-easing: cubic-bezier(.07, .95, 0, 1); // https://design.firefox.com/photon/motion/duration-and-easing.html#easing

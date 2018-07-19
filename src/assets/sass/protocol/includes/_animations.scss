@@ -2,7 +2,6 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 @-webkit-keyframes mzp-a-fade-in {
     0% {
         opacity: 0;
@@ -36,5 +35,27 @@
     }
     100% {
         opacity: 0;
+    }
+}
+
+@-webkit-keyframes mzp-a-slide-down {
+    0% {
+        @include transform(translateY(-100%));
+        opacity: 0;
+    }
+    100% {
+        @include transform(translateY(0));
+        opacity: 1;
+    }
+}
+
+@keyframes mzp-a-slide-down {
+    0% {
+        @include transform(translateY(-100%));
+        opacity: 0;
+    }
+    100% {
+        @include transform(translateY(0));
+        opacity: 1;
     }
 }

@@ -1,0 +1,42 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+/* -------------------------------------------------------------------------- */
+// Menu demo
+
+@import '../protocol/includes/lib';
+@import '../docs/protocol';
+@import '../docs/protocol-extra';
+
+.protosite-demo-header {
+    background-color: $color-gray-90;
+    color: $color-white;
+    min-height: 800px;
+
+    h1 {
+        color: $color-white;
+    }
+}
+
+.mzp-c-menu-item {
+    // Spot Illustrations
+    &.mzp-has-icon.mzp-t-illustration-accounts .mzp-c-menu-item-link:before {
+        background-image: url('/static/img/navigation/icons/accounts.svg');
+    }
+    &.mzp-has-icon.mzp-t-illustration-desktop .mzp-c-menu-item-link:before {
+        background-image: url('/static/img/navigation/icons/desktop.svg');
+    }
+    &.mzp-has-icon.mzp-t-illustration-enterprise .mzp-c-menu-item-link:before {
+        background-image: url('/static/img/navigation/icons/enterprise.svg');
+    }
+    &.mzp-has-icon.mzp-t-illustration-mobile .mzp-c-menu-item-link:before {
+        background-image: url('/static/img/navigation/icons/mobile.svg');
+    }
+    &.mzp-has-icon.mzp-t-illustration-pocket .mzp-c-menu-item-link:before {
+        background-image: url('/static/img/navigation/icons/pocket.svg');
+    }
+    &.mzp-has-icon.mzp-t-illustration-tv .mzp-c-menu-item-link:before {
+        background-image: url('/static/img/navigation/icons/tv.svg');
+    }
+}

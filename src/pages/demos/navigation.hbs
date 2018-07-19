@@ -1,0 +1,375 @@
+---
+title: Navigation
+layout: blank
+styles:
+  - navigation
+---
+
+{{#embed "patterns.organisms.navigation.navigation"}}
+  {{#content "menu"}}
+    {{#embed "patterns.molecules.menu.menu"}}
+      {{#content "content"}}
+        <li class="mzp-c-menu-category mzp-has-drop-down">
+          <a class="mzp-c-menu-title" href="https://www.mozilla.org/firefox/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-firefox">Firefox</a>
+          <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-firefox">
+            <div class="mzp-c-menu-panel-container">
+              <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-firefox">Close</button>
+              <div class="mzp-c-menu-panel-content">
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-product-firefox"}}
+                      {{#content "title"}}Firefox Desktop Browser{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Meet Firefox Quantum. Fast for good.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}
+                        <ul class="mzp-c-menu-item-list">
+                          <li><a href="https://www.mozilla.org/firefox/new/">Download</a></li>
+                          <li><a href="https://www.mozilla.org/firefox/">What’s New</a></li>
+                          <li><a href="https://addons.mozilla.org/firefox/">Add-ons</a></li>
+                          <li><a href="https://support.mozilla.org/products/firefox">Support</a></li>
+                          <li><a href="https://www.mozilla.org/privacy/firefox/">Privacy</a></li>
+                        </ul>
+                      {{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-illustration-mobile"}}
+                      {{#content "title"}}Firefox Mobile Browser{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/mobile/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          The speed you need with the privacy you want on all devices.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}
+                        <ul class="mzp-c-menu-item-list">
+                          <li><a href="https://www.mozilla.org/firefox/new/">Download</a></li>
+                          <li><a href="https://www.mozilla.org/firefox/mobile/">Firefox Focus</a></li>
+                          <li><a href="https://www.mozilla.org/firefox/mobile/">What’s New</a></li>
+                          <li><a href="https://addons.mozilla.org/android/">Android Add-ons</a></li>
+                          <li><a href="https://support.mozilla.org/products/ios">iOS Support</a></li>
+                          <li><a href="https://support.mozilla.org/products/android">Android Support</a></li>
+                        </ul>
+                      {{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-product-pocket"}}
+                      {{#content "title"}}Pocket by Firefox{{/content}}
+                      {{#content "link"}}https://getpocket.com/firefox_learnmore{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Pocket is the place to save, read and get fueled by content that fascinates you.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-illustration-accounts"}}
+                      {{#content "title"}}Firefox Accounts{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/accounts/features/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Access to your bookmarks, passwords, tabs and more from any device running Firefox.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-illustration-enterprise"}}
+                      {{#content "title"}}Firefox Enterprise{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/enterprise/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Speed up your business by giving employees a managed version of Firefox.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-illustration-tv"}}
+                      {{#content "title"}}Firefox for Fire TV{{/content}}
+                      {{#content "link"}}https://www.amazon.com/Mozilla-Firefox-for-Fire-TV/dp/B078B5YMPD{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Watch videos from popular sites — or search the entire web — with Firefox for Fire TV.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+              </div>
+              <div class="mzp-c-menu-panel-card">
+                {{#embed "patterns.molecules.card.small-card" class="mzp-c-card-extra-small has-aspect-3-2" image="/static/img/navigation/cards/pocket.png" link="https://getpocket.com"}}
+                  {{#content "content"}}
+                    <h2 class="mzp-c-card-title">Pocket by Firefox</h2>
+                    <p class="mzp-c-card-desc">Capture what fascinates you on Pocket.</p>
+                  {{/content}}
+                {{/embed}}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="mzp-c-menu-category mzp-has-drop-down">
+          <a class="mzp-c-menu-title" href="https://iot.mozilla.org/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-innovations">Innovations</a>
+          <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-innovations">
+            <div class="mzp-c-menu-panel-container">
+              <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-innovations">Close</button>
+              <div class="mzp-c-menu-panel-content">
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Common Voice{{/content}}
+                      {{#content "link"}}https://voice.mozilla.org/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Common Voice is a project to help make voice recognition open to everyone.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Virtual Reality{{/content}}
+                      {{#content "link"}}https://mixedreality.mozilla.org/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Virtual Reality for the free and open Web.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Internet of Things (IoT){{/content}}
+                      {{#content "link"}}https://iot.mozilla.org/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          An experimental framework of software and services from Mozilla for connecting "things" to the web.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Hubs{{/content}}
+                      {{#content "link"}}https://hubs.mozilla.com/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Hubs is an immersive social experience that is delivered through the browser.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+              </div>
+              <div class="mzp-c-menu-panel-card">
+                {{#embed "patterns.molecules.card.small-card" class="mzp-c-card-extra-small has-aspect-3-2" image="/static/img/navigation/cards/firefox-reality.png" link="https://blog.mozilla.org/blog/2018/04/03/mozilla-brings-firefox-augmented-virtual-reality/"}}
+                  {{#content "content"}}
+                    <h2 class="mzp-c-card-title">Mozilla Web VR</h2>
+                    <p class="mzp-c-card-desc">Mozilla brings Firefox to augmented and virtual reality.</p>
+                  {{/content}}
+                {{/embed}}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="mzp-c-menu-category mzp-has-drop-down">
+          <a class="mzp-c-menu-title" href="https://www.mozilla.org/firefox/developer/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-developer">Developers</a>
+          <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-developer">
+            <div class="mzp-c-menu-panel-container">
+              <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-developer">Close</button>
+              <div class="mzp-c-menu-panel-content">
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-product-developer"}}
+                      {{#content "title"}}Developer Edition{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/developer/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          The blazing fast browser that offers cutting edge developer tools and latest features like CSS Grid support and framework debugging.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-product-beta"}}
+                      {{#content "title"}}Firefox Beta{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/channel/desktop/#beta{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Test about-to-be-released features in the most stable pre-release build.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item" icon="true" class="mzp-t-product-nightly"}}
+                      {{#content "title"}}Firefox Nightly{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/firefox/channel/desktop/#nightly{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Get a sneak peek at our next generation web browser, and help us make it the best browser it can be.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Developer Innovations{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/developer/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Developer-oriented projects that help keep the web open and accessible for all.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}
+                        <ul class="mzp-c-menu-item-list">
+                          <li><a href="https://research.mozilla.org/webassembly/">Web Assembly</a></li>
+                          <li><a href="https://research.mozilla.org/rust/">Rust</a></li>
+                          <li><a href="https://games.mozilla.org/">Gaming</a></li>
+                          <li><a href="https://mixedreality.mozilla.org/">Mixed Reality</a></li>
+                        </ul>
+                      {{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Resources{{/content}}
+                      {{#content "link"}}https://developer.mozilla.org/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Tools and resources for the developer community, by Mozilla.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}
+                        <ul class="mzp-c-menu-item-list">
+                          <li><a href="https://developer.mozilla.org/">Documentation (MDN)</a></li>
+                          <li><a href="https://developer.mozilla.org/docs/Tools">Firefox: Dev Tools</a></li>
+                          <li><a href="https://developer.mozilla.org/docs/Tools">Firefox Playground</a></li>
+                          <li><a href="https://www.mozilla.org/developer/css-grid/">CSS Grid</a></li>
+                          <li><a href="https://hacks.mozilla.org/">Developer Blog</a></li>
+                          <li><a href="https://www.mozilla.org/moss/">Mozilla Open Source Support (MOSS)</a></li>
+                        </ul>
+                      {{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+              </div>
+              <div class="mzp-c-menu-panel-card">
+                {{#embed "patterns.molecules.card.small-card" class="mzp-c-card-extra-small has-aspect-3-2" image="/static/img/navigation/cards/developer-edition.png" link="https://www.mozilla.org/firefox/developer/"}}
+                  {{#content "content"}}
+                    <h2 class="mzp-c-card-title">Firefox Developer Edition</h2>
+                    <p class="mzp-c-card-desc">Build, test, scale and more with the only browser built just for developers.</p>
+                  {{/content}}
+                {{/embed}}
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="mzp-c-menu-category mzp-has-drop-down">
+          <a class="mzp-c-menu-title" href="https://www.mozilla.org/about/" aria-haspopup="true" aria-controls="mzp-c-menu-panel-about">About</a>
+          <div class="mzp-c-menu-panel mzp-has-card" id="mzp-c-menu-panel-about">
+            <div class="mzp-c-menu-panel-container">
+              <button class="mzp-c-menu-button-close" type="button" aria-controls="mzp-c-menu-panel-about">Close</button>
+              <div class="mzp-c-menu-panel-content">
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Mozilla{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/about/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Mozilla makes browsers, apps, code and tools that put people before profit.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}
+                        <ul class="mzp-c-menu-item-list">
+                          <li><a href="https://www.mozilla.org/about/">About Mozilla</a></li>
+                          <li><a href="https://www.mozilla.org/about/leadership/">Leadership</a></li>
+                          <li><a href="https://www.mozilla.org/foundation/">Mozilla Foundation</a></li>
+                          <li><a href="https://blog.mozilla.org/press/">Press Center</a></li>
+                          <li><a href="https://www.mozilla.org/mission/">Mozilla Mission</a></li>
+                          <li><a href="https://www.mozilla.org/contact/">Contact</a></li>
+                        </ul>
+                      {{/content}}
+                    {{/embed}}
+                  </li>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Careers{{/content}}
+                      {{#content "link"}}https://careers.mozilla.org/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          Join a mission-driven organization that builds purpose-driven products.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}{{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    {{#embed "patterns.molecules.menu.menu-item"}}
+                      {{#content "title"}}Get involved{{/content}}
+                      {{#content "link"}}https://www.mozilla.org/contribute/{{/content}}
+                      {{#content "desc"}}
+                        <p class="mzp-c-menu-item-desc">
+                          There are so many ways to join the fight for a healthy internet.
+                        </p>
+                      {{/content}}
+                      {{#content "list"}}
+                        <ul class="mzp-c-menu-item-list">
+                          <li><a href="https://www.mozilla.org/contribute/events/">Events</a></li>
+                          <li><a href="https://donate.mozilla.org/">Donate</a></li>
+                        </ul>
+                      {{/content}}
+                    {{/embed}}
+                  </li>
+                </ul>
+              </div>
+              <div class="mzp-c-menu-panel-card">
+                {{#embed "patterns.molecules.card.small-card" class="mzp-c-card-extra-small has-aspect-3-2" image="/static/img/navigation/cards/mozilla-festival.png" link="https://mozillafestival.org/"}}
+                  {{#content "content"}}
+                    <h2 class="mzp-c-card-title">The Mozilla Festival</h2>
+                    <p class="mzp-c-card-desc">An event for advocates of a healthy Internet on Oct. 26-28 in London.</p>
+                  {{/content}}
+                {{/embed}}
+              </div>
+            </div>
+          </div>
+        </li>
+      {{/content}}
+    {{/embed}}
+  {{/content}}
+{{/embed}}
+
+<header class="protosite-demo-header">
+  <div class="mzp-l-content">
+    <h1>Navigation demo</h1>
+  </div>
+</header>
+
+<script src="{{@root.baseurl}}/assets/protocol/protocol/js/protocol-menu.js"></script>
+<script src="{{@root.baseurl}}/assets/protocol/protocol/js/protocol-navigation.js"></script>
